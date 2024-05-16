@@ -8,19 +8,19 @@
 <body>
 <div class="row">
   <div class="column">
-    <img src="News Page/pic2.jpg">
-    <img src="News Page/pic5.jpg">
+    <img src="pic2.jpg">
+    <img src="pic5.jpg">
   </div>
   
   <div class="column">
-    <img src="News Page/pic3.png">
-    <img src="News Page/pic6.png">
-    <img src="News Page/pic7.png">
+    <img src="pic3.png">
+    <img src="pic6.png">
+    <img src="pic7.png">
   </div>
 
   <div class="column">
-    <img src="News Page/pic4.png">
-    <img src="News Page/pic8.png">
+    <img src="pic4.png">
+    <img src="pic8.png">
   </div>
 </div>
 </body>
@@ -29,7 +29,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 /* Create 3 equal columns that sits next to each other */
@@ -37,27 +37,28 @@
   ms-flex: 35%; /* IE10 */
   flex: 35%;
   max-width: 35%;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .column:nth-child(2) {
   ms-flex: 30%; /* IE10 */
   flex: 30%;
   max-width: 30%;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .column:nth-child(3) {
   ms-flex: 30%; /* IE10 */
   flex: 30%;
   max-width: 30%;
-  padding: 0 4px;
+  padding: 0 6px;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+  padding: 4px 0;
 }
 
 /* Responsive layout - makes a two column-layout instead of 3 columns */
