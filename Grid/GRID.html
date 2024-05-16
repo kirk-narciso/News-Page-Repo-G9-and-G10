@@ -29,28 +29,14 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 6px;
+  padding: 3% 3%;
 }
 
 /* Create 3 equal columns that sits next to each other */
-.column:nth-child(1) {
-  ms-flex: 35%; /* IE10 */
-  flex: 35%;
-  max-width: 35%;
-  padding: 0 6px;
-}
-
-.column:nth-child(2) {
-  ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  max-width: 30%;
-  padding: 0 6px;
-}
-
-.column:nth-child(3) {
-  ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  max-width: 30%;
+.column{
+  ms-flex: 32%; /* IE10 */
+  flex: 32%;
+  max-width: 32%;
   padding: 0 6px;
 }
 
@@ -62,11 +48,10 @@
 }
 
 /* Responsive layout - makes a two column-layout instead of 3 columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 .column {
-  ms-flex: 50%;
-  flex: 50%;
-  max-width: 50%;
+  flex: 48%;
+  max-width: 48%;
   }
 }
 
