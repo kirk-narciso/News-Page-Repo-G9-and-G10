@@ -1,1 +1,24 @@
-s
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Navigation</title>
+    <link rel="stylesheet" href="style smooth scroll.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+        </ul>
+    </nav>
+
+    <section id="section1">
+        <h1>Section 1</h1>
+        <p>sectio 1.</p>
+    </section>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
